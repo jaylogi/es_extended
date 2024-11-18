@@ -1,4 +1,4 @@
-USE `sql5740049`;
+USE `essentialmode`;
 
 ALTER TABLE `users`
 	ADD COLUMN `name` VARCHAR(50) NULL DEFAULT '' AFTER `money`,
